@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <h1>ANIMALS</h1>
+      <p>
+        “If a man aspires towards a righteous life, his first act of abstinence is
+        from injury to animals.”
+      </p>
+      <div><span>Albert Einstein on animals...</span></div>
+      <hr/>
+
+      <Header/>
+      <hr/>
+
+      <Footer/>
+
     </div>
   );
 }
